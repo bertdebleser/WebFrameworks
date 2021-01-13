@@ -1,0 +1,236 @@
+{
+    "questions": [
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "According to the International System of Units, how many bytes are in a kilobyte of RAM?",
+            "correct_answer": "1000",
+            "incorrect_answers": [
+                "512",
+                "1024",
+                "500"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which computer hardware device provides an interface for all other connected devices to communicate?",
+            "correct_answer": "Motherboard",
+            "incorrect_answers": [
+                "Central Processing Unit",
+                "Hard Disk Drive",
+                "Random Access Memory"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "On which computer hardware device is the BIOS chip located?",
+            "correct_answer": "motherboard",
+            "incorrect_answers": [
+                "Hard Disk Drive",
+                "Central Processing Unit",
+                "Graphics Processing Unit"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "If you were to code software in this language you'd only be able to type 0's and 1's.",
+            "correct_answer": "Binary",
+            "incorrect_answers": [
+                "JavaScript",
+                "C++",
+                "Python"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "DHCP stands for Dynamic Host Configuration Port.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
+            "correct_answer": "<marquee></marquee>",
+            "incorrect_answers": [
+                "<scroll></scroll>",
+                "<move></move>",
+                "<slide></slide>"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these was the name of a bug found in April 2014 in the publicly available OpenSSL cryptography library?",
+            "correct_answer": "Heartbleed",
+            "incorrect_answers": [
+                "Shellshock",
+                "Corrupted Blood",
+                "Shellscript"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which computer language would you associate Django framework with?",
+            "correct_answer": "Python",
+            "incorrect_answers": [
+                "C#",
+                "C++",
+                "Java"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Time on Computers is measured via the EPOX System.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "The Windows 7 operating system has six main editions.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How fast is USB 3.1 Gen 2 theoretically?",
+            "correct_answer": "10 Gb/s",
+            "incorrect_answers": [
+                "5 Gb/s",
+                "8 Gb/s",
+                "1 Gb/s"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does 'LCD' stand for?",
+            "correct_answer": "Liquid Crystal Display",
+            "incorrect_answers": [
+                "Language Control Design",
+                "Last Common Difference",
+                "Long Continuous Design"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which operating system was released first?",
+            "correct_answer": "Mac OS",
+            "incorrect_answers": [
+                "Windows",
+                "Linux",
+                "OS/2"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the process that sends one qubit of information using two bits of classical information?",
+            "correct_answer": "Quantum Teleportation",
+            "incorrect_answers": [
+                "Super Dense Coding",
+                "Quantum Entanglement",
+                "Quantum Programming"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "This mobile OS held the largest market share in 2012.",
+            "correct_answer": "iOS",
+            "incorrect_answers": [
+                "Android",
+                "BlackBerry",
+                "Symbian"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "Android versions are named in alphabetical order.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Released in 2001, the first edition of Apple's Mac OS X operating system (version 10.0) was given what animal code name?",
+            "correct_answer": "Cheetah",
+            "incorrect_answers": [
+                "Puma",
+                "Tiger",
+                "Leopard"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which programming language shares its name with an island in Indonesia?",
+            "correct_answer": "Java",
+            "incorrect_answers": [
+                "Python",
+                "C",
+                "Jakarta"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How long is an IPv6 address?",
+            "correct_answer": "128 bits",
+            "incorrect_answers": [
+                "32 bits",
+                "64 bits",
+                "128 bytes"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The acronym 'RIP' stands for which of these?",
+            "correct_answer": "Routing Information Protocol",
+            "incorrect_answers": [
+                "Runtime Instance Processes",
+                "Regular Interval Processes",
+                "Routine Inspection Protocol"
+            ]
+        }
+    ]
+}

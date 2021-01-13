@@ -1,0 +1,33 @@
+Quizpagina:
+<div id="container"*ngIf="questions">
+    Hello, we have <strong>{{questions.length}}</strong> questions for you !
+    <br>
+    <br>
+    Question: <strong>{{current}}</strong>
+    <br>
+    Category: <strong>{{currentQuestion.category}}</strong>   <!-- weergeven van huidige vraag -->
+    <br>
+    <br>
+    <strong>{{currentQuestion.question}}</strong> <!-- toon de vraag op deze lijn -->
+    <!-- Voeg hier de nodige zaken toe voor selecteren van het antwoord -->
+    <br>
+    <div *ngIf="currentQuestion.type =='multiple'">
+    <select name="" id="">
+        <option *ngFor="let o of answers">{{o}}</option>
+    </select>
+    </div>
+
+    <div *ngIf="currentQuestion.type =='boolean'">
+        <select id="MySelect" onchange="ChooseAnswer()">
+            <option *ngFor="let o answers">{{o}}</option>
+        </select>
+    </div>
+    
+    <div>You had this question wrong the correct question is : <strong>xxxx</strong></div>
+    (You currently have <strong>{{Score}}</strong> points.)
+    <br>
+    <br>
+    <button class="button" (click)="SetNextQuesion() ">  Next Question</button>
+    <br>
+    <button>Stop quiz</button>
+</div>
