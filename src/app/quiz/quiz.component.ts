@@ -37,7 +37,7 @@ export class QuizComponent implements OnInit {
     
   }
 
-  ChooseAnswer(answer : any, event : any) 
+  ChooseAnswer(answer : any) 
   {
     console.log(answer);    
     if (answer == this.currentQuestion.correct_answer)
