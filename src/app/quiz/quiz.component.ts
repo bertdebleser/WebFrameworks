@@ -13,12 +13,13 @@ export class QuizComponent implements OnInit {
   currentQuestion: IQuestion;
   answers : string[]; //array van antwoorden
   answer : string;
+  event : any;
   // wrongAnswer : boolean = false;
   // lastQuestion : boolean = false;
   // possibleAnswers: string[];
 
 
-  constructor(private svc: TriviaService) { } //injecteren van service ! Anders kan je geen data opvragen uit de interface
+  constructor(public svc: TriviaService) { } //injecteren van service ! Anders kan je geen data opvragen uit de interface
 
   ngOnInit() {
     this.svc.GetAllQuestions().subscribe(result => { 
@@ -36,24 +37,19 @@ export class QuizComponent implements OnInit {
     
   }
 
-  ChooseAnswer(answer : string) 
+  ChooseAnswer(answer : any, event : any) 
   {
-    console.log(answer);
-    
+    console.log(answer);    
     if (answer == this.currentQuestion.correct_answer)
     {      
-      this.svc.score++;
       this.SetNextQuesion();
-    }
-    else
-    {
-
+      this.svc.score++;
     }
   }
   
-  public get Score()  {
-    return this.svc.score; //
-  }
+   public get Score()  {
+     return this.svc.score;
+   }
   
   
   // GetPossibleAnswers(){
