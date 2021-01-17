@@ -1,19 +1,24 @@
 Overzichtspagina:
 
 <br>
-Je hebt de quiz beeindigd, je behaalde: <strong>xxxx</strong> punten.
+Je hebt de quiz beeindigd, je behaalde: <strong>{{Score}}</strong> punten.
 <br>
 <br>
 Geef hier je naam in:
-<input>
+<input #naam placeholder="Geef naam">
 
 <br>
-<button>Score bewaren</button>
+<button (click)="Save(naam.value)">Score bewaren</button>
 <br>
 <br>
 <div>
     High-score overzicht:
     <table>
        <!-- Toon hier het overzicht van de scores -->
+       <tr *ngFor="let s of scores">
+        <td>{{s.date | date:"dd/MM/yyyy HH:mm"}}</td>
+        <td>{{s.name}}</td>
+        <td>{{s.score}}</td>
+       </tr>
     </table>
 </div>
